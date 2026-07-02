@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.imageview.ShapeableImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/iv_avatar_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:adjustViewBounds="true"
+    android:padding="2dp"
+    android:scaleType="centerCrop"
+    app:shapeAppearanceOverlay="@style/CircleImage"
+    app:strokeColor="@color/divider"
+    app:strokeWidth="1dp" />

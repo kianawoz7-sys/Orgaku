@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "516744232113",
+    "project_id": "orgaku",
+    "storage_bucket": "orgaku.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:516744232113:android:4e06630ef10bd020763690",
+        "android_client_info": {
+          "package_name": "com.tokoku.orgaku"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "516744232113-jv6kjrosl2q8mr71ea4m44346j4clco4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tokoku.orgaku",
+            "certificate_hash": "803116a7af7036d183e4d4cd55368c7cc805e38c"
+          }
+        },
+        {
+          "client_id": "516744232113-um176ike38augqqhpovj58ssr3kk3nno.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY_kpdEkCtX9GoqaHJdtFIU4lBLmJuwXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "516744232113-um176ike38augqqhpovj58ssr3kk3nno.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

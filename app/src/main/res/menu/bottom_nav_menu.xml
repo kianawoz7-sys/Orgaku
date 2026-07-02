@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_beranda"
+        android:icon="@drawable/ic_home"
+        android:title="Beranda" />
+    <item
+        android:id="@+id/nav_jadwal"
+        android:icon="@drawable/ic_calendar"
+        android:title="Jadwal" />
+    <item
+        android:id="@+id/nav_qr"
+        android:icon="@drawable/ic_qr_code"
+        android:title="QR" />
+    <item
+        android:id="@+id/nav_tugas"
+        android:icon="@drawable/ic_task"
+        android:title="Tugas" />
+    <item
+        android:id="@+id/nav_profil"
+        android:icon="@drawable/ic_profile"
+        android:title="Profil" />
+</menu>

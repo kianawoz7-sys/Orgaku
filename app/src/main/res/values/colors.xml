@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary_dark">#1A3C6E</color>
+    <color name="primary_light">#2A5298</color>
+    <color name="accent_yellow">#FFB800</color>
+    <color name="background_gray">#F5F7FA</color>
+    <color name="text_dark">#1A1A1A</color>
+    <color name="text_muted">#8E9299</color>
+    <color name="priority_high_bg">#FFE5E5</color>
+    <color name="priority_high_text">#FF4444</color>
+    <color name="priority_medium_bg">#FFF4D6</color>
+    <color name="priority_medium_text">#FFB800</color>
+    <color name="priority_low_bg">#E5F9E5</color>
+    <color name="priority_low_text">#4CAF50</color>
+    <color name="card_blue_bg">#345A9A</color>
+    <color name="badge_bg_blue">#E5F1FF</color>
+    <color name="indicator_blue">#1A3C6E</color>
+    <color name="absensi_yellow">#FBBF24</color>
+    <color name="absensi_blue">#1E3A8A</color>
+    <color name="absensi_blue_light">#E0E7FF</color>
+    <color name="absensi_blue_text">#3730A3</color>
+    <color name="status_green_bg">#DCFCE7</color>
+    <color name="status_green_text">#15803D</color>
+    <color name="tab_selected_bg">#1A3C6E</color>
+    <color name="tab_unselected_text">#8E9299</color>
+    <color name="status_progress_bg">#E0E7FF</color>
+    <color name="status_progress_text">#3730A3</color>
+    <color name="status_done_text">#4CAF50</color>
+    <color name="settings_section_text">#94A3B8</color>
+    <color name="settings_icon_bg">#F8FAFC</color>
+    <color name="white_alpha_20">#33FFFFFF</color>
+    <color name="primary">@color/primary_light</color>
+    <color name="error">@color/priority_high_text</color>
+    <color name="text_primary">@color/text_dark</color>
+    <color name="text_secondary">@color/text_muted</color>
+    <color name="text_tertiary">#B0B3B8</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="bg_input_color">#F8FAFC</color>
+    <color name="bg_input_stroke">#E2E8F0</color>
+    <color name="card_stroke_alpha">#30FFFFFF</color>
+    <color name="card_bg_alpha">#20FFFFFF</color>
+    <color name="date_badge_bg">#FFF8E1</color>
+    <color name="icon_tint_disabled">#CBD5E1</color>
+
+    <!-- Document Vibrant Colors -->
+    <color name="blue_proposal">#4285F4</color>
+    <color name="orange_lpj">#FBBC05</color>
+    <color name="purple_surat">#A142F4</color>
+    <color name="green_foto">#34A853</color>
+    <color name="gray_default">#BDC1C6</color>
+    <color name="_2196f3">#216EF3</color>
+</resources>

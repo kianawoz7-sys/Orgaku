@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="background_gray">#121212</color>
+    <color name="white">#1E1E1E</color>
+    <color name="text_dark">#FFFFFF</color>
+    <color name="text_muted">#B0B3B8</color>
+    <color name="divider">#2C2C2C</color>
+    <color name="settings_icon_bg">#2D2D2D</color>
+    <color name="bg_input_color">#2D2D2D</color>
+    <color name="bg_input_stroke">#3E3E3E</color>
+    <color name="card_stroke_alpha">#20FFFFFF</color>
+    <color name="card_bg_alpha">#15FFFFFF</color>
+    <color name="date_badge_bg">#3E321F</color>
+    <color name="icon_tint_disabled">#4A4A4A</color>
+</resources>

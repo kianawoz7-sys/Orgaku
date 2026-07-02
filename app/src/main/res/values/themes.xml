@@ -1,0 +1,73 @@
+<resources>
+
+    <style name="Base.Theme.OrgaKu" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/badge_bg_blue</item>
+        <item name="colorOnPrimaryContainer">@color/primary_dark</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/primary_dark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <item name="colorSecondaryContainer">@color/status_progress_bg</item>
+        <item name="colorOnSecondaryContainer">@color/status_progress_text</item>
+
+        <!-- Tertiary brand color. -->
+        <item name="colorTertiary">@color/accent_yellow</item>
+        <item name="colorOnTertiary">@color/white</item>
+
+        <!-- Surface colors -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorSurface">@color/white</item>
+        <item name="colorOnSurface">@color/text_dark</item>
+        <item name="colorSurfaceVariant">@color/background_gray</item>
+        <item name="colorOnSurfaceVariant">@color/text_muted</item>
+
+        <!-- Outline color -->
+        <item name="colorOutline">@color/divider</item>
+
+        <!-- Status bar and Navigation bar color. -->
+        <item name="android:statusBarColor">@color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Selection color -->
+        <item name="colorControlActivated">@color/primary_light</item>
+        <item name="colorControlHighlight">@color/badge_bg_blue</item>
+        <item name="android:textColorHighlight">@color/badge_bg_blue</item>
+    </style>
+
+    <style name="Theme.OrgaKu" parent="Base.Theme.OrgaKu" />
+
+    <style name="CircleImage">
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="BottomNavText">
+        <item name="android:textSize">10sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Widget.App.TaskTabButton" parent="Widget.Material3.Button.TonalButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:padding">0dp</item>
+        <item name="android:textColor">@color/tab_button_text_selector</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="backgroundTint">@color/tab_button_bg_selector</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.App.SmallComponent</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="rippleColor">@color/white_alpha_20</item>
+    </style>
+
+    <style name="ShapeAppearance.App.SmallComponent" parent="ShapeAppearance.Material3.SmallComponent">
+        <item name="cornerSize">16dp</item>
+    </style>
+
+</resources>

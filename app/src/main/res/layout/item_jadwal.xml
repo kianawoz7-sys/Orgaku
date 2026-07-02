@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="24dp"
+    android:layout_marginTop="12dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="2dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Left Side: Date Badge -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardDateBadge"
+            android:layout_width="64dp"
+            android:layout_height="72dp"
+            app:cardBackgroundColor="#FDF5E6"
+            app:cardCornerRadius="12dp"
+            app:cardElevation="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvMeetingDayName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rab,"
+                    android:textColor="@color/accent_yellow"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvMeetingDateNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13"
+                    android:textColor="@color/accent_yellow"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvMeetingMonthYear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Mei 2026"
+                    android:textColor="@color/accent_yellow"
+                    android:textSize="8sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- Center: Details -->
+        <TextView
+            android:id="@+id/tvMeetingTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Rapat Koordinasi"
+            android:textColor="@color/text_dark"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toStartOf="@id/btnDeleteJadwal"
+            app:layout_constraintStart_toEndOf="@id/cardDateBadge"
+            app:layout_constraintTop_toTopOf="@id/cardDateBadge" />
+
+        <TextView
+            android:id="@+id/tvTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:drawablePadding="6dp"
+            android:text="09:00 - 11:30"
+            android:textColor="@color/text_muted"
+            android:textSize="12sp"
+            app:drawableStartCompat="@drawable/ic_time_small"
+            app:drawableTint="#FF9800"
+            app:layout_constraintEnd_toEndOf="@id/tvMeetingTitle"
+            app:layout_constraintStart_toStartOf="@id/tvMeetingTitle"
+            app:layout_constraintTop_toBottomOf="@id/tvMeetingTitle" />
+
+        <TextView
+            android:id="@+id/tvLocation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:drawablePadding="6dp"
+            android:text="Ruang Rapat Utama"
+            android:textColor="@color/text_muted"
+            android:textSize="12sp"
+            app:drawableStartCompat="@drawable/ic_location_small"
+            app:drawableTint="#2196F3"
+            app:layout_constraintEnd_toEndOf="@id/tvMeetingTitle"
+            app:layout_constraintStart_toStartOf="@id/tvMeetingTitle"
+            app:layout_constraintTop_toBottomOf="@id/tvTime" />
+
+        <ImageButton
+            android:id="@+id/btnDeleteJadwal"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_delete"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:tint="@color/error" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
